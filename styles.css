@@ -216,7 +216,7 @@ h1 em {
   background: #dec2e5;
 }
 
-.about-link {
+.preview-jump {
   color: var(--muted);
 }
 
@@ -378,6 +378,77 @@ h1 em {
   line-height: 1.8;
 }
 
+.preview {
+  padding: 64px 0 48px;
+  border-bottom: 1px solid var(--line);
+}
+
+.preview-heading {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  align-items: end;
+  gap: 32px 56px;
+  margin-bottom: 28px;
+}
+
+.preview-heading .eyebrow {
+  margin: 0 0 12px;
+  color: var(--lilac);
+}
+
+.preview-heading h2 {
+  margin: 0;
+  font: normal clamp(30px, 3.4vw, 42px)/1.15 Georgia, "Times New Roman", serif;
+  letter-spacing: -0.035em;
+}
+
+.preview-description {
+  max-width: 370px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.preview-figure {
+  margin: 0;
+}
+
+.preview-image-link {
+  display: block;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--plum);
+}
+
+.preview-image-link:hover {
+  border-color: var(--lilac);
+}
+
+.preview-image-link img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.preview-action {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 14px 18px;
+  border-top: 1px solid var(--line);
+  font-size: 12px;
+}
+
+.preview-figure figcaption {
+  margin-top: 12px;
+  color: var(--quiet);
+  font-size: 11px;
+  line-height: 1.7;
+}
+
 .site-footer {
   display: flex;
   align-items: center;
@@ -511,6 +582,16 @@ h1 em {
   .feature > p:last-child {
     max-width: 490px;
     font-size: 14px;
+  }
+
+  .preview {
+    padding: 40px 0 32px;
+  }
+
+  .preview-heading {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    margin-bottom: 24px;
   }
 
   .site-footer {
