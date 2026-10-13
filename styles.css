@@ -412,6 +412,31 @@ h1 em {
   line-height: 1.8;
 }
 
+.teaser-nav {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px 16px;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto 24px;
+}
+
+.teaser-nav > span {
+  color: var(--quiet);
+  font-size: 11px;
+}
+
+.teaser-nav a {
+  padding: 0 14px;
+  border: 1px solid var(--line);
+  border-radius: 24px;
+}
+
+.teaser-nav a:hover {
+  border-color: var(--lilac);
+}
+
 .preview-figure {
   width: 100%;
   max-width: 960px;
@@ -456,6 +481,73 @@ h1 em {
   color: var(--quiet);
   font-size: 11px;
   line-height: 1.7;
+}
+
+.feature-teaser {
+  padding: 56px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.teaser-content {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.4fr);
+  align-items: start;
+  gap: 28px 56px;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.teaser-heading .eyebrow {
+  margin: 0 0 12px;
+  color: var(--lilac);
+}
+
+.teaser-heading h2 {
+  margin: 0;
+  font: normal clamp(30px, 3.4vw, 42px)/1.15 Georgia, "Times New Roman", serif;
+  letter-spacing: -0.035em;
+}
+
+.teaser-tagline {
+  margin: 14px 0 0;
+  color: var(--lilac);
+  font: italic 19px/1.5 Georgia, "Times New Roman", serif;
+}
+
+.teaser-body {
+  min-width: 0;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.teaser-body > p {
+  margin: 0 0 18px;
+}
+
+.teaser-body strong {
+  color: var(--cream);
+  font-weight: 500;
+}
+
+.teaser-example {
+  padding: 18px 20px;
+  border-left: 2px solid var(--lilac);
+  border-radius: 0 6px 6px 0;
+  background: var(--plum);
+}
+
+.teaser-example .eyebrow {
+  margin: 0 0 8px;
+  color: var(--cream);
+  font-size: 9px;
+  letter-spacing: 0.13em;
+}
+
+.teaser-example > p:last-child {
+  margin: 0;
+  font-size: 13px;
 }
 
 .site-footer {
@@ -601,6 +693,19 @@ h1 em {
     grid-template-columns: 1fr;
     gap: 16px;
     margin-bottom: 24px;
+  }
+
+  .teaser-nav > span {
+    flex-basis: 100%;
+  }
+
+  .feature-teaser {
+    padding: 36px 0;
+  }
+
+  .teaser-content {
+    grid-template-columns: 1fr;
+    gap: 22px;
   }
 
   .site-footer {
