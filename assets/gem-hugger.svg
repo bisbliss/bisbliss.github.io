@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">BisBliss — The Gem Hugger</title>
+  <desc id="desc">A fluffy cream moth with lavender wings lovingly hugging an oversized purple jewel.</desc>
+  <defs>
+    <linearGradient id="wing" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#fff0d5"/><stop offset="1" stop-color="#ddc1c5"/>
+    </linearGradient>
+    <linearGradient id="gem" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#e2b0ff"/><stop offset=".5" stop-color="#a874e8"/><stop offset="1" stop-color="#6a45ae"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="227" rx="51" ry="7" fill="#201124" opacity=".3"/>
+  <g stroke="#302039" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M111 139 C82 130 57 154 63 179 C70 205 101 207 123 169Z" fill="#b992c5"/>
+    <path d="M145 139 C174 130 199 154 193 179 C186 205 155 207 133 169Z" fill="#b992c5"/>
+    <path d="M119 117 C97 81 71 47 43 58 C16 68 24 109 44 135 C60 156 85 161 110 152Z" fill="url(#wing)"/>
+    <path d="M137 117 C159 81 185 47 213 58 C240 68 232 109 212 135 C196 156 171 161 146 152Z" fill="url(#wing)"/>
+    <path d="M103 131 Q62 131 45 83 Q72 85 103 131Z" fill="#b793c9" stroke="none"/>
+    <path d="M153 131 Q194 131 211 83 Q184 85 153 131Z" fill="#b793c9" stroke="none"/>
+    <ellipse cx="67" cy="105" rx="8" ry="12" transform="rotate(-34 67 105)" fill="#6e4e89" stroke="none"/>
+    <ellipse cx="189" cy="105" rx="8" ry="12" transform="rotate(34 189 105)" fill="#6e4e89" stroke="none"/>
+    <path d="M78 173 Q93 175 104 158 M178 173 Q163 175 152 158" fill="none" stroke="#ebcadf" stroke-width="4"/>
+    <path d="M111 82 Q105 52 90 44 M145 82 Q151 52 166 44" fill="none" stroke="#ead5b9" stroke-width="5"/>
+    <path d="M102 60 L91 57 M108 70 L96 67 M154 60 L165 57 M148 70 L160 67" fill="none" stroke="#ead5b9" stroke-width="4"/>
+    <path d="M105 128 Q95 157 111 190 L106 210 Q113 220 126 202 Q139 220 148 210 L143 189 Q159 157 150 128Z" fill="#e2c6bc"/>
+    <path d="M99 103 L94 96 L101 88 L99 78 L111 78 L118 70 L128 76 L139 70 L146 79 L157 79 L155 91 L161 99 L154 108 Q151 132 128 135 Q105 132 99 103Z" fill="#fff0d5"/>
+    <ellipse cx="116" cy="104" rx="4" ry="5" fill="#302039" stroke="none"/>
+    <ellipse cx="140" cy="104" rx="4" ry="5" fill="#302039" stroke="none"/>
+    <path d="M122 116 Q128 122 134 116" fill="none" stroke-width="3"/>
+    <path d="M108 115 L112 116 M144 116 L148 115" fill="none" stroke="#dcaebc" stroke-width="4"/>
+    <path d="M111 139 L145 139 L164 159 L128 210 L92 159Z" fill="url(#gem)"/>
+    <path d="M111 142 L115 160 L96 159Z M145 142 L141 160 L160 159Z" fill="#f0c7ff" stroke="none"/>
+    <path d="M115 160 L128 205 L141 160Z" fill="#b78bed" stroke="none"/>
+    <path d="M111 141 L115 160 L141 160 L145 141 M96 159 L160 159 M115 160 L128 205 L141 160" fill="none" stroke="#7548aa" stroke-width="2.5"/>
+    <path d="M102 145 Q89 144 89 157 Q90 172 107 170 Q113 164 104 161 L105 153" fill="#fff0d5" stroke-width="4"/>
+    <path d="M154 145 Q167 144 167 157 Q166 172 149 170 Q143 164 152 161 L151 153" fill="#fff0d5" stroke-width="4"/>
+  </g>
+  <path d="M123 141 Q124 149 131 151 Q124 153 123 160 Q121 153 114 151 Q121 149 123 141Z" fill="#fff3f7"/>
+  <path d="M220 165 Q221 175 230 177 Q221 180 220 188 Q218 180 210 177 Q218 175 220 165Z" fill="#efc9fc"/>
+  <circle cx="42" cy="186" r="3" fill="#efc9fc"/>
+</svg>

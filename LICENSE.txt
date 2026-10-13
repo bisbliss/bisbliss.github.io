@@ -1,0 +1,16 @@
+All Rights Reserved
+
+Copyright (c) 2026 BisBliss. All rights reserved.
+
+This notice applies to the original source code, text, design, branding, and
+artwork in this repository, including the BisBliss Gem Hugger assets.
+
+Except as permitted by applicable law or expressly authorized in writing by the
+copyright holder, you may not reproduce, modify, redistribute, sublicense, sell,
+or create derivative works from these materials.
+
+Permission is granted to access and view the published website, including the
+incidental technical copies needed for normal browser use.
+
+Third-party materials, names, and trademarks remain the property of their
+respective owners and are subject to their own applicable terms.
